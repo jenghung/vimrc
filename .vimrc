@@ -167,3 +167,6 @@ let g:airline_right_sep = '«'
 
 let g:syntastic_check_on_open=1
 let g:syntastic_enable_signs=1
+
+let g:ctrlp_open_new_file = 't'
+
