@@ -170,3 +170,9 @@ let g:syntastic_enable_signs=1
 
 let g:ctrlp_open_new_file = 't'
 
+"http://vim.wikia.com/wiki/Change_cursor_shape_in_different_modes
+if has("autocmd")
+  au InsertEnter * silent execute "!gconftool-2 --type string --set /apps/gnome-terminal/profiles/Default/cursor_shape ibeam"
+  au InsertLeave * silent execute "!gconftool-2 --type string --set /apps/gnome-terminal/profiles/Default/cursor_shape block"
+  au VimLeave * silent execute "!gconftool-2 --type string --set /apps/gnome-terminal/profiles/Default/cursor_shape block"
+endif
