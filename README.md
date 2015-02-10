@@ -7,30 +7,30 @@ http://inspire.twgg.org/programming/other/item/451-linux-vim-raiders-training-et
 * a → insert after the cursor
 * o → insert a new line after the current one
 * O → insert a new line before the current one
-
-
+<hr>
 * 0 → go to the first column
 * ^ → go to the first non-blank character of the line
 * $ → go to the end of line
-<br>
+<hr>
 * u → undo
 * <C-r> → redo
-<br>
+<hr>
 * 2dd → will delete 2 lines
 * NdG -> delete to line N.
 * 3p → will paste the text 3 times
-<br>
+<hr>
 * NG → Go to line N
 * gg → shortcut for 1G - go to the start of the file
 * G → Go to last line
-<br>
+<hr>
 * w → go to the start of the following word,
 * e → go to the end of this word.
 * W → go to the start of the following WORD,
 * E → go to the end of this WORD.
-<br>
+<hr>
 * % : Go to the corresponding (, {, [.
 * * (resp. #) : go to next (resp. previous) occurrence of the word under the cursor
+
 
 
 
