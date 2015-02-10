@@ -16,7 +16,6 @@ http://inspire.twgg.org/programming/other/item/451-linux-vim-raiders-training-et
 * <C-r> → redo
 <hr>
 * 2dd → will delete 2 lines
-* NdG -> delete to line N.
 * 3p → will paste the text 3 times
 <hr>
 * NG → Go to line N
@@ -30,8 +29,16 @@ http://inspire.twgg.org/programming/other/item/451-linux-vim-raiders-training-et
 <hr>
 * % : Go to the corresponding (, {, [.
 * * (resp. #) : go to next (resp. previous) occurrence of the word under the cursor
+<hr>
+* <action>a<object> and <action>i<object>
+* vi" → will select foo.
+* va" → will select "foo".
+* vi) → will select "foo".
+* va) → will select ("foo").
 
 
+
+* NdG -> delete to line N from current position.
 
 
 # plugin
