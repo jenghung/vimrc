@@ -18,6 +18,8 @@ http://inspire.twgg.org/programming/other/item/451-linux-vim-raiders-training-et
 * 2dd → will delete 2 lines
 * 3p → will paste the text 3 times
 <hr>
+* NdG -> delete to line N from current position.
+<hr>
 * NG → Go to line N
 * gg → shortcut for 1G - go to the start of the file
 * G → Go to last line
@@ -39,10 +41,10 @@ http://inspire.twgg.org/programming/other/item/451-linux-vim-raiders-training-et
 * <C-v> → Start block selection
 * <C-d> → move down (could also be jjj or %, etc…)
 * I-- [ESC] → write -- to comment each line
+<hr>
+* Completion: In Insert mode, just type the start of a word, then type <C-p>
 
 
-
-* NdG -> delete to line N from current position.
 
 
 # plugin
