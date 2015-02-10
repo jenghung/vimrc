@@ -35,6 +35,10 @@ http://inspire.twgg.org/programming/other/item/451-linux-vim-raiders-training-et
 * va" → will select "foo".
 * vi) → will select "foo".
 * va) → will select ("foo").
+<hr>
+* <C-v> → Start block selection
+* <C-d> → move down (could also be jjj or %, etc…)
+* I-- [ESC] → write -- to comment each line
 
 
 
