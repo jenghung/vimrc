@@ -7,7 +7,8 @@ http://inspire.twgg.org/programming/other/item/451-linux-vim-raiders-training-et
 * a → insert after the cursor
 * o → insert a new line after the current one
 * O → insert a new line before the current one
-<br>
+
+
 * 0 → go to the first column
 * ^ → go to the first non-blank character of the line
 * $ → go to the end of line
