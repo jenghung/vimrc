@@ -22,6 +22,7 @@ http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/
 * Ctrl+r → redo
 
 ### Delete(d), Copy(y), Paste(p)
+* D → delete text after current cursor
 * 2dd → will delete 2 lines
 * 3p → will paste the text 3 times
 * NdG → delete to line N from current position.
@@ -68,14 +69,18 @@ zz → move current line to center.
 * move down (could also be jjj or %, etc…)
 * < (resp. >) → indent to the left (resp. to the right).
 * = → auto indent
+* gg=G → auto indent all text
 
 ### Completion
 * Completion: In Insert mode, just type the start of a word, then type Ctrl+p
 
-### Splits: :split and vsplit
+### Splits: :new and vnew
 * Ctrl+w <dir> : where dir is any of hjkl or ←↓↑→ to change the split.
 * Ctrl+w _ (resp. Ctrl+w |) : maximise the size of the split (resp. vertical split)
 * Ctrl+w + (resp. Ctrl+w -) : Grow (resp. shrink) split
+
+### TabEdit
+* tabedit → new tab. 
 
 # plugin
 
