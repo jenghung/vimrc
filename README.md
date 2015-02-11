@@ -31,17 +31,26 @@ http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/
 * e → go to the end of this word.
 * W → go to the start of the following WORD,
 * E → go to the end of this WORD.
+* b, B → move backward.
 
 ### Efficient Move
 * % : Go to the corresponding (, {, [.
 * * (resp. #) : go to next (resp. previous) occurrence of the word under the cursor
+* f" → find next "
+* fx → find next x
+* F" → backward
 
-### Select Word
-* <action>a<object> and <action>i<object>
-* vi" → will select foo.
-* va" → will select "foo".
-* vi) → will select "foo".
-* va) → will select ("foo").
+### Select Word Ex: ("foo")
+* viw → will select foo
+* vi" → will select foo
+* va" → will select "foo"
+* vi) → will select "foo"
+* va) → will select ("foo")
+
+### Screen Move
+zt → move current line to top.
+zb → move current line to bottom.
+zz → move current line to center.
 
 ### Insert each line
 * Ctrl+v → Start block selection
