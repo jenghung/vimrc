@@ -45,14 +45,20 @@ http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/
 
 ### Insert each line
 * Ctrl+v → Start block selection
-* Ctrl+d → move down (could also be jjj or %, etc…)
+* move down (could also be jjj or %, etc…)
 * I, write text, [ESC]
 
 ### Apend each line
 * Ctrl+v → Start block selection
-* Ctrl+d → move down (could also be jjj or %, etc…)
+* move down (could also be jjj or %, etc…)
 * $ go to the end of the line
 * A, write text, ESC.
+
+### Indent
+* Ctrl+v → Start block selection
+* move down (could also be jjj or %, etc…)
+* < (resp. >) → indent to the left (resp. to the right).
+* = → auto indent
 
 ### Completion
 * Completion: In Insert mode, just type the start of a word, then type Ctrl+p
