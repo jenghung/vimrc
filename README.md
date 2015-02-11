@@ -2,46 +2,59 @@ Go Go Vim!
 =====
 http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/
 
-http://inspire.twgg.org/programming/other/item/451-linux-vim-raiders-training-etc.html
-
+### Insert 
 * a → insert after the cursor
 * o → insert a new line after the current one
 * O → insert a new line before the current one
-<hr>
+
+### Basic Move
 * 0 → go to the first column
 * ^ → go to the first non-blank character of the line
 * $ → go to the end of line
-<hr>
-* u → undo
-* <C-r> → redo
-<hr>
-* 2dd → will delete 2 lines
-* 3p → will paste the text 3 times
-<hr>
-* NdG -> delete to line N from current position.
-<hr>
 * NG → Go to line N
 * gg → shortcut for 1G - go to the start of the file
 * G → Go to last line
-<hr>
+* <C+F> → next page 
+* <C+B> → previous page
+
+### Undo, Redo
+* u → undo
+* <C-r> → redo
+
+### Delete(d), Copy(y), Paste(p)
+* 2dd → will delete 2 lines
+* 3p → will paste the text 3 times
+* NdG -> delete to line N from current position.
+
+### Word Move
 * w → go to the start of the following word,
 * e → go to the end of this word.
 * W → go to the start of the following WORD,
 * E → go to the end of this WORD.
-<hr>
+
+### Efficient Move
 * % : Go to the corresponding (, {, [.
 * * (resp. #) : go to next (resp. previous) occurrence of the word under the cursor
-<hr>
+
+### Select Word
 * <action>a<object> and <action>i<object>
 * vi" → will select foo.
 * va" → will select "foo".
 * vi) → will select "foo".
 * va) → will select ("foo").
-<hr>
+
+### Insert each line
 * <C-v> → Start block selection
 * <C-d> → move down (could also be jjj or %, etc…)
-* I-- [ESC] → write -- to comment each line
-<hr>
+* I, write text, [ESC]
+
+### Apend each line
+* <C-v> → Start block selection
+* <C-d> → move down (could also be jjj or %, etc…)
+* $ go to the end of the line
+* A, write text, ESC.
+
+### Completion
 * Completion: In Insert mode, just type the start of a word, then type <C-p>
 
 
