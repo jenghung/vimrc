@@ -14,17 +14,17 @@ http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/
 * NG → Go to line N
 * gg → shortcut for 1G - go to the start of the file
 * G → Go to last line
-* <C-f> → next page 
-* <C-b> → previous page
+* Ctrl+f → next page 
+* Ctrl+b → previous page
 
 ### Undo, Redo
 * u → undo
-* <C-r> → redo
+* Ctrl+r → redo
 
 ### Delete(d), Copy(y), Paste(p)
 * 2dd → will delete 2 lines
 * 3p → will paste the text 3 times
-* NdG -> delete to line N from current position.
+* NdG → delete to line N from current position.
 
 ### Word Move
 * w → go to the start of the following word,
@@ -44,24 +44,23 @@ http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/
 * va) → will select ("foo").
 
 ### Insert each line
-* <C-v> → Start block selection
-* <C-d> → move down (could also be jjj or %, etc…)
+* Ctrl+v → Start block selection
+* Ctrl+d → move down (could also be jjj or %, etc…)
 * I, write text, [ESC]
 
 ### Apend each line
-* <C-v> → Start block selection
-* <C-d> → move down (could also be jjj or %, etc…)
+* Ctrl+v → Start block selection
+* Ctrl+d → move down (could also be jjj or %, etc…)
 * $ go to the end of the line
 * A, write text, ESC.
 
 ### Completion
-* Completion: In Insert mode, just type the start of a word, then type <C-p>
+* Completion: In Insert mode, just type the start of a word, then type Ctrl+p
 
 ### Splits: :split and vsplit
-* <C-w> → switch
-* <C-w><dir> : where dir is any of hjkl or ←↓↑→ to change the split.
-* <C-w>_ (resp. <C-w>|) : maximise the size of the split (resp. vertical split)
-* <C-w>+ (resp. <C-w>-) : Grow (resp. shrink) split
+* Ctrl+w <dir> : where dir is any of hjkl or ←↓↑→ to change the split.
+* Ctrl+w _ (resp. Ctrl+w |) : maximise the size of the split (resp. vertical split)
+* Ctrl+w + (resp. Ctrl+w -) : Grow (resp. shrink) split
 
 # plugin
 
@@ -70,4 +69,5 @@ https://github.com/Shougo/neobundle.vim
 
 ## Vim Awesome
 http://vimawesome.com/
+
 
