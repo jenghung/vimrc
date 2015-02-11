@@ -74,13 +74,14 @@ zz → move current line to center.
 ### Completion
 * Completion: In Insert mode, just type the start of a word, then type Ctrl+p
 
-### Splits:new and vnew
-* Ctrl+w <dir> : where dir is any of hjkl or ←↓↑→ to change the split.
-* Ctrl+w _ (resp. Ctrl+w |) : maximise the size of the split (resp. vertical split)
-* Ctrl+w + (resp. Ctrl+w -) : Grow (resp. shrink) split
+### Splits :new and :vnew
+* Ctrl+w <dir> → where dir is any of hjkl or ←↓↑→ to change the split.
+* Ctrl+w _ (resp. Ctrl+w |) → maximise the size of the split (resp. vertical split)
+* ctrl+w = → equally split windows
+* Ctrl+w + (resp. Ctrl+w -) → Grow (resp. shrink) split
 
 ### TabEdit
-* tabedit → new tab. 
+* :tabedit → new tab. 
 
 ### Windows
 * :ls → view buffer
