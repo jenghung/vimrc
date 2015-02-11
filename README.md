@@ -14,8 +14,8 @@ http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/
 * NG → Go to line N
 * gg → shortcut for 1G - go to the start of the file
 * G → Go to last line
-* <C+F> → next page 
-* <C+B> → previous page
+* <C-f> → next page 
+* <C-b> → previous page
 
 ### Undo, Redo
 * u → undo
@@ -57,8 +57,11 @@ http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/
 ### Completion
 * Completion: In Insert mode, just type the start of a word, then type <C-p>
 
-
-
+### Splits: :split and vsplit
+* <C-w> → switch
+* <C-w><dir> : where dir is any of hjkl or ←↓↑→ to change the split.
+* <C-w>_ (resp. <C-w>|) : maximise the size of the split (resp. vertical split)
+* <C-w>+ (resp. <C-w>-) : Grow (resp. shrink) split
 
 # plugin
 
