@@ -19,19 +19,19 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 NeoBundle 'Shougo/neosnippet.vim'
 " NeoBundle 'Shougo/neosnippet-snippets'
 NeoBundle 'tpope/vim-fugitive'
-NeoBundle 'ctrlpvim/ctrlp.vim'
+NeoBundle 'kien/ctrlp.vim'
 NeoBundle 'flazz/vim-colorschemes'
 NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'bling/vim-airline'
 NeoBundle 'altercation/vim-colors-solarized'
 NeoBundle 'ap/vim-css-color'
-NeoBundle 'vim-scripts/EasyGrep'      " vv vV  :Grep
 NeoBundle 'vim-scripts/Auto-Pairs'    " { ==> }
 NeoBundle 'mileszs/ack.vim'           " search string :Ack
 NeoBundle 'HTML-AutoCloseTag'
 NeoBundle 'bronson/vim-trailing-whitespace'
 NeoBundle 'mattn/emmet-vim'
 NeoBundle 'pangloss/vim-javascript'
+NeoBundle 'ervandew/supertab'
 
 " You can specify revision/branch/tag.
 NeoBundle 'Shougo/vimshell', { 'rev' : '3787e5' }
@@ -54,6 +54,9 @@ set ttimeoutlen=50
 let g:airline_theme='solarized'
 let g:airline_left_sep = '»'
 let g:airline_right_sep = '«'
+
+let g:ctrlp_open_new_file = 't'
+
 
 
 " don't make vim compatible with vi
@@ -143,7 +146,7 @@ set wildignore+=*.DS_Store
 " next and prev tab
 " " noremap <F7> gT
 noremap <C-n> gt
-noremap <C-b> gT
+
 
 if has('gui_running')
   set guifont=Ubuntu\ Mono\ 13
@@ -162,4 +165,9 @@ if has("autocmd")
   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 endif
 
-autocmd FileType html setlocal shiftwidth=2 tabstop=2
+" cursorline switched while focus is switched to another split window
+autocmd WinEnter * setlocal cursorline
+autocmd WinLeave * setlocal nocursorline
+
+autocmd FileType html set tabstop=2|set shiftwidth=2|set expandtab
+
