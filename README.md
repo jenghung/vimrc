@@ -99,4 +99,13 @@ zz → move current line to center.
 * Use Ctrl+t or Ctrl+v, Ctrl+x to open the selected entry in a new tab or in a new split.
 * Ctrl+o select open type. 
 
+### [Ack](https://github.com/mileszs/ack.vim)
+* :Ack [options] {pattern} [{directories}]
+* o → to open (same as enter)
+* O → to open and close quickfix window
+* t → to open in new tab
+* h → to open in horizontal split
+* v → to open in vertical split
+* q → to close the quickfix window
+
 
