@@ -1,5 +1,4 @@
-Go Go Vim!
-=====
+## Basic Use
 http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/
 
 ### Insert 
@@ -91,12 +90,10 @@ zz → move current line to center.
 * :tab ba → open all buffer to tab
 
 
-# plugin
-
-## Install NeoBoundle
+## Plugins
+### Install by NeoBoundle
 https://github.com/Shougo/neobundle.vim
-
-## Vim Awesome
+### Vim Awesome
 http://vimawesome.com/
 
 
