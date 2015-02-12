@@ -91,9 +91,12 @@ zz → move current line to center.
 
 
 ## Plugins
-### Install by NeoBoundle
-https://github.com/Shougo/neobundle.vim
-### Vim Awesome
-http://vimawesome.com/
+* Install by NeoBoundle: https://github.com/Shougo/neobundle.vim
+* Vim Awesome: http://vimawesome.com/
+
+### [ctrlp](https://github.com/kien/ctrlp.vim)
+* Press Ctrl+f and Ctrl+b to cycle between modes.
+* Use Ctrl+t or Ctrl+v, Ctrl+x to open the selected entry in a new tab or in a new split.
+* Ctrl+o select open type. 
 
 
