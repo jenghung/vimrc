@@ -64,7 +64,7 @@ set nocompatible
 " turn on syntax highlighting
 syntax on
 " and show line numbers
-"set number
+set number
 " make vim try to detect file types and load plugins for them
 filetype on
 filetype plugin on
