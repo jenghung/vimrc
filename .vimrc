@@ -32,6 +32,7 @@ NeoBundle 'bronson/vim-trailing-whitespace'
 NeoBundle 'mattn/emmet-vim'
 NeoBundle 'pangloss/vim-javascript'
 NeoBundle 'ervandew/supertab'
+NeoBundle 'ekalinin/Dockerfile.vim'
 
 " You can specify revision/branch/tag.
 NeoBundle 'Shougo/vimshell', { 'rev' : '3787e5' }
@@ -71,7 +72,7 @@ filetype plugin on
 filetype indent on
 " encoding is utf 8
 set encoding=utf-8
-set fileencoding=utf-8
+set fileencodings=utf-8,big5,latin1
 " Allows you to have multiple buffers open
 set hidden
 " Lines of code will not wrap to the next line
