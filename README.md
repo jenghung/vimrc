@@ -107,5 +107,6 @@ zz → move current line to center.
 * h → to open in horizontal split
 * v → to open in vertical split
 * q → to close the quickfix window
+* :Ack searchtext % → find all in current document
 
 
