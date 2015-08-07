@@ -89,6 +89,11 @@ zz → move current line to center.
 * :bd3 → close number 3 buffer
 * :tab ba → open all buffer to tab
 
+### detect crlf
+* :e ++ff=unix
+
+### Hex mode 
+* :%! xxd
 
 ## Plugins
 * Install by NeoBoundle: https://github.com/Shougo/neobundle.vim
