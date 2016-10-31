@@ -23,6 +23,7 @@ NeoBundle 'kien/ctrlp.vim'
 NeoBundle 'flazz/vim-colorschemes'
 NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'bling/vim-airline'
+NeoBundle 'vim-airline/vim-airline-themes'
 NeoBundle 'altercation/vim-colors-solarized'
 NeoBundle 'ap/vim-css-color'
 NeoBundle 'vim-scripts/Auto-Pairs'    " { ==> }
