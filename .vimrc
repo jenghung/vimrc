@@ -53,7 +53,7 @@ NeoBundleCheck
 " airline
 set laststatus=2
 set ttimeoutlen=50
-let g:airline_theme='solarized'
+let g:airline_theme='light'
 let g:airline_left_sep = '»'
 let g:airline_right_sep = '«'
 
@@ -131,8 +131,9 @@ set nowritebackup
 " copy the previous indentation on autoindenting
 set copyindent
 " set solarized-dark theme
-set background=dark
-colorscheme solarized
+"set background=dark
+"colorscheme molokai
+colorscheme Tomorrow-Night-Eighties
 
 " ignores
 set wildignore+=*.o,*.obj,*.pyc,*.class        " output objects
@@ -154,13 +155,6 @@ if has('gui_running')
   set guifont=Ubuntu\ Mono\ 13
 endif
 
-
-"http://vim.wikia.com/wiki/Change_cursor_shape_in_different_modes
-if has("autocmd")
-  au InsertEnter * silent execute "!gconftool-2 --type string --set /apps/gnome-terminal/profiles/Default/cursor_shape ibeam"
-  au InsertLeave * silent execute "!gconftool-2 --type string --set /apps/gnome-terminal/profiles/Default/cursor_shape block"
-  au VimLeave * silent execute "!gconftool-2 --type string --set /apps/gnome-terminal/profiles/Default/cursor_shape block"
-endif
 
 " jump to the last position when reopening a file
 if has("autocmd")
